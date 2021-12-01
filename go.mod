@@ -3,7 +3,6 @@ module github.com/hajnalandor/air
 go 1.17
 
 require (
-	github.com/cosmtrek/air v1.27.8
 	github.com/fatih/color v1.13.0
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/imdario/mergo v0.3.12
