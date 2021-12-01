@@ -1,12 +1,17 @@
-module github.com/cosmtrek/air
+module github.com/hajnalandor/air
 
-go 1.16
+go 1.17
 
 require (
-	github.com/creack/pty v1.1.11
-	github.com/fatih/color v1.10.0
-	github.com/fsnotify/fsnotify v1.4.9
+	github.com/cosmtrek/air v1.27.8
+	github.com/fatih/color v1.13.0
+	github.com/fsnotify/fsnotify v1.5.1
 	github.com/imdario/mergo v0.3.12
-	github.com/pelletier/go-toml v1.8.1
-	golang.org/x/sys v0.0.0-20210514084401-e8d321eab015 // indirect
+	github.com/pelletier/go-toml v1.9.4
+)
+
+require (
+	github.com/mattn/go-colorable v0.1.9 // indirect
+	github.com/mattn/go-isatty v0.0.14 // indirect
+	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
 )
